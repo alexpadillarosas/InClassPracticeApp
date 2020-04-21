@@ -16,8 +16,8 @@
 		FA2AD723244C467C00284FDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2AD722244C467C00284FDD /* main.m */; };
 		FA2AD72D244C467C00284FDD /* InClassPracticeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2AD72C244C467C00284FDD /* InClassPracticeAppTests.m */; };
 		FA2AD738244C467C00284FDD /* InClassPracticeAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2AD737244C467C00284FDD /* InClassPracticeAppUITests.m */; };
-		FAA10914244D5F1000E0C8C8 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA10911244D5F1000E0C8C8 /* Circle.m */; };
-		FAA10915244D5F1000E0C8C8 /* Cylinder.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA10912244D5F1000E0C8C8 /* Cylinder.m */; };
+		FAF0C6A7244E780400F44976 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF0C6A6244E780400F44976 /* Circle.m */; };
+		FAF0C6AA244E785100F44976 /* Cylinder.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF0C6A9244E785100F44976 /* Cylinder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,10 +56,10 @@
 		FA2AD733244C467C00284FDD /* InClassPracticeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InClassPracticeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2AD737244C467C00284FDD /* InClassPracticeAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InClassPracticeAppUITests.m; sourceTree = "<group>"; };
 		FA2AD739244C467C00284FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAA10910244D5F1000E0C8C8 /* Cylinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cylinder.h; path = ../../InClassPractice/InClassPractice/practical1/Cylinder.h; sourceTree = "<group>"; };
-		FAA10911244D5F1000E0C8C8 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Circle.m; path = ../../InClassPractice/InClassPractice/practical1/Circle.m; sourceTree = "<group>"; };
-		FAA10912244D5F1000E0C8C8 /* Cylinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cylinder.m; path = ../../InClassPractice/InClassPractice/practical1/Cylinder.m; sourceTree = "<group>"; };
-		FAA10913244D5F1000E0C8C8 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Circle.h; path = ../../InClassPractice/InClassPractice/practical1/Circle.h; sourceTree = "<group>"; };
+		FAF0C6A5244E780400F44976 /* Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		FAF0C6A6244E780400F44976 /* Circle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		FAF0C6A8244E785100F44976 /* Cylinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cylinder.h; sourceTree = "<group>"; };
+		FAF0C6A9244E785100F44976 /* Cylinder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cylinder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,10 +110,6 @@
 		FA2AD70F244C467B00284FDD /* InClassPracticeApp */ = {
 			isa = PBXGroup;
 			children = (
-				FAA10913244D5F1000E0C8C8 /* Circle.h */,
-				FAA10911244D5F1000E0C8C8 /* Circle.m */,
-				FAA10910244D5F1000E0C8C8 /* Cylinder.h */,
-				FAA10912244D5F1000E0C8C8 /* Cylinder.m */,
 				FA2AD710244C467B00284FDD /* AppDelegate.h */,
 				FA2AD711244C467B00284FDD /* AppDelegate.m */,
 				FA2AD713244C467B00284FDD /* SceneDelegate.h */,
@@ -125,6 +121,10 @@
 				FA2AD71E244C467C00284FDD /* LaunchScreen.storyboard */,
 				FA2AD721244C467C00284FDD /* Info.plist */,
 				FA2AD722244C467C00284FDD /* main.m */,
+				FAF0C6A5244E780400F44976 /* Circle.h */,
+				FAF0C6A6244E780400F44976 /* Circle.m */,
+				FAF0C6A8244E785100F44976 /* Cylinder.h */,
+				FAF0C6A9244E785100F44976 /* Cylinder.m */,
 			);
 			path = InClassPracticeApp;
 			sourceTree = "<group>";
@@ -278,9 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA2AD718244C467B00284FDD /* ViewController.m in Sources */,
-				FAA10915244D5F1000E0C8C8 /* Cylinder.m in Sources */,
+				FAF0C6AA244E785100F44976 /* Cylinder.m in Sources */,
 				FA2AD712244C467B00284FDD /* AppDelegate.m in Sources */,
-				FAA10914244D5F1000E0C8C8 /* Circle.m in Sources */,
+				FAF0C6A7244E780400F44976 /* Circle.m in Sources */,
 				FA2AD723244C467C00284FDD /* main.m in Sources */,
 				FA2AD715244C467B00284FDD /* SceneDelegate.m in Sources */,
 			);
@@ -348,6 +348,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				"CLANG_OPTIMIZATION_PROFILE_FILE[arch=*]" = "$(SRCROOT)/OptimizationProfiles/$(PROJECT_NAME).profdata";
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -469,6 +470,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InClassPracticeApp/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = InClassPracticeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
