@@ -25,7 +25,18 @@
     
     [[self btnCalcVolume] setEnabled:NO];
     
+    //this is for the UITextField: hide keyboard by touching somewhere else using gestures, also create the dismisskeyboard method
+    UITapGestureRecognizer *gestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(dismissKeyboard)];
+    [self.view addGestureRecognizer:gestureRecognizer];
+    gestureRecognizer.cancelsTouchesInView = NO;
+    
 }
+
+- (void)dismissKeyboard
+{
+     [self.view endEditing:YES];
+}
+
 
 /*
  To create the action proceed in the same way as the outlets ctrl-click  and drag it here
@@ -80,5 +91,7 @@
         [lblVolume setText:[NSString stringWithFormat:@"%f", [cylinder calculateVolume]]];
     }
 }
+
+
 
 @end
